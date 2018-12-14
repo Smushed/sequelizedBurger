@@ -1,0 +1,28 @@
+{
+  "name": "Eat-Burger",
+  "version": "1.0.0",
+  "description": "Node, Express &amp; Handlebars homework",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smushed/Eat-Burger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Smushed/Eat-Burger/issues"
+  },
+  "homepage": "https://github.com/Smushed/Eat-Burger#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {}
+}
