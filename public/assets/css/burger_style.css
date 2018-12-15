@@ -9,6 +9,31 @@ li {
     margin-top: 15px;
     margin-left: 50%;
     transform: translateX(-50%);
+    width: 450px;
+    height: 55px;
+    background: lightgray;
+    border-radius: 4px;
+}
+.customer-input{
+    margin-left: 15%;
+    width: 150px;
+}
+.eat{
+    float: right;
+    margin-right: 25px;
+}
+.burger {
+    padding-top: 12px;
+    padding-left: 25px;
+    font-weight: 600;
+}
+.eaten-burger{
+    margin-left: auto;
+    float: left;
+}
+.customer-name {
+    margin-right: 100px;
+    float: right;
 }
 #burger-input {
     margin-left: 50%;

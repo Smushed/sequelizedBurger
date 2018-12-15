@@ -13,11 +13,13 @@
                     {{#each burgers}}
                     {{#unless devoured}}
                     <li>
-                        {{burger_name}}
-
-                        <button class="eat btn btn-success btn-sm" data-id="{{this.id}}">
-                            Consume!
-                        </button>
+                        <div class="burger">
+                            {{burger_name}}
+                            <input class="customer-input" id="customer-{{this.id}}" placeholder=" Name">
+                            <button class="eat btn btn-success btn-sm" data-id="{{this.id}}">
+                                Consume!
+                            </button>
+                        </div>
                     </li>
                     {{/unless}}
                     {{/each}}
@@ -29,7 +31,10 @@
                     {{#each burgers}}
                     {{#if devoured}}
                     <li>
-                        {{burger_name}}
+                        <div class="burger">
+                            <div class="eaten-burger">{{this.burger_name}}</div>
+                            <div class="customer-name">Eaten by: {{this.customer_name}}</div>
+                        </div>
                     </li>
                     {{/if}}
                     {{/each}}
